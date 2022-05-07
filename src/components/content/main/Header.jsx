@@ -31,7 +31,7 @@ const header = () => {
         </p>
         <div className="flex flex-col justify-center items-center mt-[67px] relative">
           <img src={robot} alt="" className="h-[305px]" />
-          <button className="bg-white w-[231px] capitalize font-normal text-base leading-[18px] py-5 text-center rounded-full absolute bottom-[47px] shadow-[0_20px_30px_rgba(249, 131, 171, 0.5)]">
+          <button className="bg-white w-[231px] capitalize font-normal text-base leading-[18px] py-5 text-center rounded-full absolute bottom-[47px] shadow-[0_20px_30px_rgba(249, 131, 171, 0.5)] hover:-translate-y-1 hover:bg-slate-500 hover:text-white duration-500">
             let's Go
           </button>
         </div>

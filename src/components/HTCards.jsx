@@ -9,7 +9,7 @@ const HTCards = ({ title, image }) => {
         <p className="text-base leading-[18.75px] text-white font-bold">
           {title}
         </p>
-        <div className="bg-white h-8 w-8 p-[10px] rounded-full cursor-pointer self-center ml-6">
+        <div className="bg-white h-8 w-8 p-[10px] rounded-full cursor-pointer self-center ml-6 hover:translate-x-1 duration-500">
           <HiArrowRight size={12} />
         </div>
       </div>
